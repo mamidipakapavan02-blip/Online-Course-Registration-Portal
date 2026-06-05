@@ -1,243 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Online Course Registration Portal</title>
+    <title>Online Course Registration Portal</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-<div class="container">
-<a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="logo.jpg" alt="College Logo" width="40" height="40" class="me-2">
-                <span>CVR College</span>
-</a>
+    <div class="container">
 
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-<span class="navbar-toggler-icon"></span>
-</button>
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/logo.jpg" alt="College Logo" width="40" height="40" class="me-2">
+            <span>CVR College</span>
+        </a>
 
-<div class="collapse navbar-collapse" id="menu">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item">
-<a class="nav-link active" href="index.html">Home</a>
-</li>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<li class="nav-item">
-<a class="nav-link" href="courses.html">Courses</a>
-</li>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
 
-<li class="nav-item">
-<a class="nav-link" href="about.html">About</a>
-</li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link" href="contact.html">Contact</a>
-</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                </li>
 
-<li class="nav-item">
-<a class="nav-link" href="registration.html">Login</a>
-</li>
-</ul>
-</div>
-</div>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Register</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
 </nav>
 
 <!-- Hero Section -->
 <section class="hero d-flex align-items-center">
-<div class="container text-center text-white">
-<h1 class="display-4 fw-bold">
-Online Course Registration Portal
-</h1>
+    <div class="container text-center text-white">
 
-<p class="lead">
-Learn Industry Ready Skills from Expert Trainers
-</p>
+        <h1 class="display-4 fw-bold">
+            Online Course Registration Portal
+        </h1>
 
-<p>
-Join thousands of students building successful careers in
-technology and software development.
-</p>
+        <p class="lead">
+            Learn Industry Ready Skills from Expert Trainers
+        </p>
 
-<a href="courses.html" class="btn btn-warning btn-lg">
-Explore Courses
-</a>
-</div>
+        <p>
+            Join thousands of students building successful careers
+            in technology and software development.
+        </p>
+
+        <a href="courses.html" class="btn btn-warning btn-lg">
+            Explore Courses
+        </a>
+
+    </div>
 </section>
 
 <!-- Featured Courses -->
 <section class="py-5">
-<div class="container">
+    <div class="container">
 
-<h2 class="text-center mb-5">
-Featured Courses
-</h2>
+        <h2 class="text-center mb-5 fw-bold">
+            Featured Courses
+        </h2>
 
-<div class="row g-4">
+        <div class="row g-4">
 
-<!-- Course 1 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/web.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>Web Development</h5>
-<p>Duration: 3 Months</p>
-<p>Fee: ₹15,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+            <!-- Course 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
 
-<!-- Course 2 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/python.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>Python Programming</h5>
-<p>Duration: 2 Months</p>
-<p>Fee: ₹12,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+                    <img src="images/web.jpg"
+                         class="card-img-top"
+                         alt="Web Development">
 
-<!-- Course 3 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/ds.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>Data Science</h5>
-<p>Duration: 4 Months</p>
-<p>Fee: ₹20,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+                    <div class="card-body">
 
-<!-- Course 4 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/ai.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>AI & Machine Learning</h5>
-<p>Duration: 5 Months</p>
-<p>Fee: ₹25,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+                        <h5 class="fw-bold">
+                            Web Development
+                        </h5>
 
-<!-- Course 5 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/java.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>Java Programming</h5>
-<p>Duration: 3 Months</p>
-<p>Fee: ₹14,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+                        <p>Duration: 3 Months</p>
+                        <p>Fee: ₹15,000</p>
 
-<!-- Course 6 -->
-<div class="col-md-4">
-<div class="card h-100">
-<img src="images/cloud.jpg" class="card-img-top" alt="">
-<div class="card-body">
-<h5>Cloud Computing</h5>
-<p>Duration: 4 Months</p>
-<p>Fee: ₹18,000</p>
-<a href="courses.html" class="btn btn-primary">
-View Details
-</a>
-</div>
-</div>
-</div>
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
 
-</div>
-</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+
+                    <img src="images/python.jpg"
+                         class="card-img-top"
+                         alt="Python Programming">
+
+                    <div class="card-body">
+
+                        <h5 class="fw-bold">
+                            Python Programming
+                        </h5>
+
+                        <p>Duration: 2 Months</p>
+                        <p>Fee: ₹12,000</p>
+
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+
+                    <img src="images/ds.jpg"
+                         class="card-img-top"
+                         alt="Data Science">
+
+                    <div class="card-body">
+
+                        <h5 class="fw-bold">
+                            Data Science
+                        </h5>
+
+                        <p>Duration: 4 Months</p>
+                        <p>Fee: ₹20,000</p>
+
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+
+                    <img src="images/ai.jpg"
+                         class="card-img-top"
+                         alt="AI & Machine Learning">
+
+                    <div class="card-body">
+
+                        <h5 class="fw-bold">
+                            AI & Machine Learning
+                        </h5>
+
+                        <p>Duration: 5 Months</p>
+                        <p>Fee: ₹25,000</p>
+
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+
+                    <img src="images/java.jpg"
+                         class="card-img-top"
+                         alt="Java Programming">
+
+                    <div class="card-body">
+
+                        <h5 class="fw-bold">
+                            Java Programming
+                        </h5>
+
+                        <p>Duration: 3 Months</p>
+                        <p>Fee: ₹14,000</p>
+
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+
+                    <img src="images/cloud.jpg"
+                         class="card-img-top"
+                         alt="Cloud Computing">
+
+                    <div class="card-body">
+
+                        <h5 class="fw-bold">
+                            Cloud Computing
+                        </h5>
+
+                        <p>Duration: 4 Months</p>
+                        <p>Fee: ₹18,000</p>
+
+                        <a href="courses.html"
+                           class="btn btn-primary mt-auto">
+                            View Details
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </section>
 
-<!-- Testimonials -->
+<!-- Testimonials Carousel -->
 <section class="bg-light py-5">
-<div class="container">
 
-<h2 class="text-center mb-5">
-Student Testimonials
-</h2>
+    <div class="container">
 
-<div class="row g-4">
+        <h2 class="text-center mb-5 fw-bold">
+            Student Testimonials
+        </h2>
 
-<div class="col-md-4">
-<div class="card p-3">
-<h5>Rahul Kumar</h5>
-<p>
-Excellent trainers and practical sessions helped me
-get placed quickly.
-</p>
-</div>
-</div>
+        <div id="testimonialCarousel"
+             class="carousel slide"
+             data-bs-ride="carousel">
 
-<div class="col-md-4">
-<div class="card p-3">
-<h5>Priya Sharma</h5>
-<p>
-The Data Science course was well structured and easy
-to understand.
-</p>
-</div>
-</div>
+            <div class="carousel-inner">
 
-<div class="col-md-4">
-<div class="card p-3">
-<h5>Arjun Reddy</h5>
-<p>
-Best institute for learning modern technologies.
-</p>
-</div>
-</div>
+                <div class="carousel-item active">
+                    <div class="card shadow-sm p-4 text-center">
+                        <h4>Rahul Kumar</h4>
+                        <p>
+                            Excellent trainers and practical sessions
+                            helped me get placed quickly.
+                        </p>
+                    </div>
+                </div>
 
-</div>
-</div>
+                <div class="carousel-item">
+                    <div class="card shadow-sm p-4 text-center">
+                        <h4>Priya Sharma</h4>
+                        <p>
+                            The Data Science course was well structured
+                            and easy to understand.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card shadow-sm p-4 text-center">
+                        <h4>Arjun Reddy</h4>
+                        <p>
+                            Best institute for learning modern technologies.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon bg-dark rounded-circle"></span>
+
+            </button>
+
+            <button class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+
+                <span class="carousel-control-next-icon bg-dark rounded-circle"></span>
+
+            </button>
+
+        </div>
+
+    </div>
+
 </section>
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center p-4">
 
-<h5>CVR college</h5>
+    <h5>CVR College</h5>
 
-<p>
-Hyderabad, Telangana
-</p>
+    <p>Hyderabad, Telangana</p>
 
-<p>
-Phone: +91 9876543210
-</p>
+    <p>Phone: +91 9876543210</p>
 
-<p>
-Email: info@cvrcollege.com
-</p>
+    <p>Email: info@cvrcollege.com</p>
 
-<p>
-Facebook | Instagram | LinkedIn
-</p>
+    <p>Facebook | Instagram | LinkedIn</p>
 
 </footer>
 

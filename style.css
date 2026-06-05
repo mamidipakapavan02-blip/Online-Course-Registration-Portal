@@ -1,42 +1,83 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
+/* Hero Section */
 .hero{
-height:90vh;
-background:url('../images/banner.jpg');
-background-size:cover;
-background-position:center;
-position:relative;
+    height:90vh;
+    background:url('../images/banner.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
 }
 
 .hero::before{
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.6);
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.6);
 }
 
 .hero .container{
-position:relative;
-z-index:1;
+    position:relative;
+    z-index:1;
 }
 
-.card img{
-height:220px;
-object-fit:cover;
-}
-
-footer{
-margin-top:0;
-}
-
+/* Course & Faculty Images */
 .card-img-top{
-height:250px;
-object-fit:cover;
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    object-position:center;
+}
+
+/* Equal Height Cards */
+.card{
+    transition:0.3s ease;
+    border:none;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Align Button at Bottom */
+.card-body{
+    display:flex;
+    flex-direction:column;
+}
+
+.card-body .btn{
+    margin-top:auto;
+}
+
+/* Footer */
+footer{
+    margin-top:0;
+}
+
+/* Logo */
+.navbar-brand img{
+    border-radius:50%;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+    .hero{
+        height:70vh;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .card-img-top{
+        height:220px;
+    }
 }
