@@ -112,9 +112,11 @@ Online-Course-Registration-Portal/
 
 ## 👨‍💻 Developed By
 
-Your Name
+**M Pavan Kumar**
+**23B81A05JD**
+B.Tech – Computer Science and Engineering
 
----
+CVR College of Engineering
 
 ## ⭐ Project Outcome
 
