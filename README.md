@@ -82,23 +82,23 @@ Online-Course-Registration-Portal/
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](home.png)
 
 ### Courses Page
 
-![Courses](screenshots/courses.png)
+![Courses](courses.png)
 
 ### Registration Page
 
-![Registration](screenshots/registration.png)
+![Registration](registration.png)
 
 ### About Us Page
 
-![About](screenshots/about.png)
+![About](about.png)
 
 ### Contact Us Page
 
-![Contact](screenshots/contact.png)
+![Contact](contact.png)
 
 ---
 
