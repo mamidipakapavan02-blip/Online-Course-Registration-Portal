@@ -78,6 +78,13 @@ Online-Course-Registration-Portal/
 
 ---
 
+## 🔗 GitHub Repository
+
+```text
+https://github.com/your-username/college-event-management](https://github.com/mamidipakapavan02-blip/Online-Course-Registration-Portal
+```
+---
+
 ## 📸 Screenshots
 
 ### Home Page
